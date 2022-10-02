@@ -49,7 +49,6 @@ generated number of 4 digits.
 6. viewMemberList(): An admin should be able to view the current list of members in the system. For each member on the list, display the member ID, First name and Last name.
 
 7. addFitnessClass(..): An admin should be able to add a new fitness class, which is initially with an empty list of members, by providing the following details:
-
 Class ID, Class Name, Class date, Class time, Maximum capacity (default of 10), Room number
 
 8. deleteFitnessClass(class_id): An admin should be able to delete a fitness class by providing its ID.
@@ -76,7 +75,6 @@ a) As a result, the member will be added to the list of members of that class.
 
 17. quitProgram(): Any user should be able to quit the program properly.
 The system should create files with the data recorded during the current session
-
 a) The list of classes should be saved in a “FitnessClasses.txt” file. For each class record, the values of all the data members should be saved, comma separated, as follows [Class ID, Class Name, Class date, Class time, Maximum capacity, Room number, List of Members]. The list of members should contain the list of member IDs, e.g. [5879,4380,9090].
 Example of a class record: 1,Boxing,23-09-21,16:00,10,2,[5879,4380,9090]
 b) The list of Admin should be saved in a “Admins.txt” file. For each admin record, the values of all the data members should be saved, comma separated, [Admin ID, First name, Last name, Username, Password].
